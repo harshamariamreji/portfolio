@@ -1,0 +1,249 @@
+﻿html,body{
+    width: 100%;
+    height: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #922B21;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #ECF0F1;
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+.active {
+    background-color: #E6B0AA;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
+.parallax {
+    /* The image used */
+    background-image: url("backgroundD.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navspan {
+    text-align: right;
+    padding: 14px 18px;
+    display: block;
+    color: #ECF0F1;
+    font-size: 16px;
+}
+.profilepic{
+    width: 80%;
+    height:70%;
+    margin-top: 15%;
+    margin-left: 11%;
+}
+.firstdiv{
+text-align: left;
+font-style: italic;
+font-size: 2.5em;
+margin-top: 11%;
+text-overflow: ellipsis;
+
+}
+.seconddiv{
+    text-align: left;
+    font-style: italic;
+    font-size: 1.5em;
+    
+}
+.thirddiv{
+    margin-top: 1%; 
+    padding-bottom: 2%;
+}
+.imgdiv{
+height:2%;
+}
+.btn {
+    background-color: #C0392B;
+    border: none;
+    color: white;
+    padding:8px 21px 8px 21px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #641E16;
+}
+.btnclass{
+    height: 14%;
+    width: 95%;
+}
+/* .mainrow{
+    background-image: url("backgroundA.jpg");
+} */
+.chart{
+    height: 100%;
+    width: 100%;
+}
+
+#aboutdiv{
+    max-height: 104vh;
+    padding-bottom: 4%;
+    background-image: url("backgroundB.jpg");
+}
+.about{
+   
+    font-style: bold;
+    font-size: 42PX; 
+    padding: 2% 0% 1% 18%;
+}
+.aboutpara{
+   font-size: 14px; 
+   font-weight: 500;
+}
+#myworks{
+    background-image: url("backgroundB.jpg");
+}
+
+/* #contactdiv{
+    background-image: url("backgroundC.jpg");
+} */
+
+#works{
+    font-style: bold;
+    font-size: 42PX; 
+    padding: 2% 0% 1% 18%;
+    text-align: center;
+    margin-left: -6%;
+}
+.employeework{
+   height:100%;
+   width:70%;
+}
+.appwork{
+    height:100%;
+    width:70%;
+}
+#rmsdiv{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1%;
+}
+#mapclass{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1%;
+}
+.mapouter{
+    text-align:right;
+    padding-top: 1%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+}
+.registerbtn {
+    background-color:#922B21;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+.namebox{
+    height: 2%;
+    width: 38vmin;
+    border-color: #0000004d;
+}
+.emailbox{
+    height: 2%;
+    width: 38vmin;
+    border-color: #0000004d;
+}
+.pclass{
+    text-align: center;
+    font-size: 120%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-family: cursive;
+}
+.form{
+    padding-top: 1%;
+}
+
+.contactform{
+    height:100%;
+    background-color: #723c1c40;
+}
+.txtarea{
+    padding-top: 1%;
+    margin-left: 8%;
+}
+.buttonclass{
+    padding-top: 1%;
+}
+.footerclass{
+    background-color: #212529;
+    color: white;
+    margin-top: 1%;
+}
+@media screen and (min-width: 480px) {
+    #idinput {
+       width:100%;
+    }
+    #idemail{
+        width:100%;
+    }
+}
